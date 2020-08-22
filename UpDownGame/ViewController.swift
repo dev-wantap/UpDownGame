@@ -30,3 +30,8 @@ class ViewController: UIViewController {
     }
 }
 
+class NextView: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
