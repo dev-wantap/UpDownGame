@@ -62,7 +62,7 @@ class ViewController: UIViewController {
             reset()
         }
         else if tryCount >= 5 {
-            showAlert(message: "You Lose")
+            showAlert(message: "You Lose. (\(randomValue))")
             //print("You lose.")
             reset()
         }
